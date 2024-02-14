@@ -1,8 +1,5 @@
 version: '3.7'
 
-volumes:
-  dbs:
-
 services:
   app:
     build:
@@ -11,7 +8,5 @@ services:
     env_file:
       - .env
     volumes:
-      - type: volume
-        source: dbs
-        target: /app/dbs
+      - ./dbs/:/app/dbs/
     restart: on-failure
