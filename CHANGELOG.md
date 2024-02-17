@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog][keepachangelog] and this project adheres to [Semantic Versioning][semver].
 
+## v0.2.0
+
+### Added
+
+- Теперь может работать в группах с топиками
+- Сохранение трат в google-таблицу
+
 ## v0.1.0
 
 ### Added

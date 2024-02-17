@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "finance-gpt"
-version = "0.1.0"
+version = "0.2.0"
 description = ""
 authors = ["Danil Ustinov <vk.vx@yandex.ru>"]
 readme = "README.md"
@@ -13,6 +13,7 @@ langchain-core = "^0.1.23"
 langchain-openai = "^0.0.6"
 brotli = "^1.1.0"
 python-telegram-bot = "^20.8"
+gspread = "^6.0.2"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.11.0"

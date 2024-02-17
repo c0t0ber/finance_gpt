@@ -25,6 +25,7 @@ ENV VIRTUAL_ENV=/app/.venv \
 COPY --from=builder ${VIRTUAL_ENV} ${VIRTUAL_ENV}
 
 COPY pyproject.toml ./
+COPY google_auth ./google_auth
 COPY finance_gpt ./finance_gpt
 
 ENTRYPOINT ["python", "-m", "finance_gpt"]
